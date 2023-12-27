@@ -1,0 +1,252 @@
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* navbar */
+.container-nav{
+	justify-content: center;
+	background: rgb(222,7,196);
+background: linear-gradient(90deg, rgba(222,7,196,1) 28%, rgba(166,22,218,1) 73%);
+}
+
+.navbar-brand img{
+width: 30%;
+box-shadow: 5px 5px  5px rgb(80, 79, 79);
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+	margin-right: 2rem;
+	padding: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+/* header slider */
+.image-slider{
+	width: 100%;
+	padding-bottom: 4rem;
+
+}
+.carousel-inner img{
+	width: 100%;
+	height: 25rem;
+}
+.section-bulid{
+	margin: 2rem;
+	padding: 2rem;
+}
+.section-bulid h1{
+	padding-right: 30px;
+	font-size: 2rem;
+}
+.section-bulid h1,h4{
+	margin-bottom: 1rem;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section-bulid .para{
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+
+/* counter */
+.counter
+{
+	justify-content: center;
+	justify-self: center;
+    text-align: center;
+	margin-left: 7rem;
+	margin-right: 3rem;
+	padding-right: 3rem;
+}
+
+.counter-count
+{
+	font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    text-align: center;
+	margin-right: 0.3rem;
+    display: inline-block;
+}
+.count-up h3{
+	margin-right: 0.3rem;
+	font-size: 12px;
+	font-weight: bold;
+}
+.count-up{
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 2rem;
+	width: 10rem;
+	margin-bottom: 1rem;
+	background: rgb(222,7,196);
+background: linear-gradient(90deg, rgba(222,7,196,1) 28%, rgba(166,22,218,1) 73%);
+	max-height: 20rem;
+}
+
+/* RESIDENTIAL */
+.section-images {
+    margin-top: 40px;
+  }
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .image-container:hover .image-text {
+    opacity: 1;
+  }
+
+  .image-text h1 {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .image-text {
+      position: relative;
+      opacity: 1; 
+      background: none;
+    }
+
+    .image-container:hover .image-text {
+      opacity: 1;
+    }
+  }
+
+  /* blog */
+
+.custom-carousel {
+	margin-top: 20px;
+	margin-bottom: 2rem;
+  }
+  
+  .blog-slider h1{
+	font-size: 3rem;
+	font-weight: bold;
+  }
+  
+  .custom-carousel .carousel-item img {
+	border-radius: 8px;
+  }
+  
+  .custom-carousel .carousel-control-prev {
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	transform: translateY(-50%);
+  }
+  
+  .custom-carousel .carousel-indicators {
+	margin-bottom: 10px;
+  }
+  
+  .custom-carousel .carousel-indicators li {
+	background-color: #555;
+	border: 1px solid #777;
+  }
+  
+  .custom-carousel .carousel-indicators .active {
+	background-color: #007bff;
+  }
+  
+  .custom-carousel .carousel-item .description-box {
+	position: absolute;
+	bottom: 0;
+	padding: 3rem;
+	left: 0;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: #fd0707;
+	color: #fff;
+	
+  }
+  
+  .custom-carousel .carousel-item .description-box p {
+	margin: 0;
+  }
+  
+  /* footer */
+
+  .footer{
+	margin-top: 2rem;
+
+
+  }
+
+  .footer ul {
+	list-style:none;
+  }
+  .footer a{
+	color: #fff;
+	text-decoration: none;
+
+  }
+  .footer, .footer2{
+	background-color: #3b3a3a;
+	color: #fff;
+	margin-top: 0.1rem;
+	padding: 3rem;
+	text-align: center;
+  }
+h5{
+	font-size: 10px;
+	text-align: center;
+  }
+
+  .subscribe-container {
+	display: flex;
+	margin-bottom: 20px;
+  }
+  .subscribe-input {
+	width: 300px;
+	padding: 10px;
+	background-color: #000000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+  }
+  .subscribe-button {
+	background-color: #212221;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  .social-icons {
+	font-size: 24px;
+	margin-top: 20px;
+  }
+  .social-icons a {
+	color: #fff;
+	margin: 0 10px;
+	text-decoration: none;
+  }
+
+  footer{
+	background-color: #000000;
+	color: #fff;
+	padding-top: .8rem;
+	padding-bottom: .1rem;
+  }
